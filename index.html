@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Perhentian Setia Travel & Tours Sdn.Bhd.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="project.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"> </script>
+<script src ="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"> </script>
+</head>
+
+<body>
+<!-- This is page 1-->
+<div data-role="page" id="page1"> 
+<div data-role="header" class="header" width="100%" data-theme="b">
+		<h1>HOME</h1>
+	</div>
+	
+<div data-role="navbar" id="alignment">
+	<ul>
+		<li><a href="#page1" data-icon="home" >HOME</a>
+		<li><a href="#page2" data-icon="star">HOLIDAY PACKAGE</a>
+		<li><a href="#page3" data-icon="check" >ACCOMMODATION</a>
+		<li><a href="#page4" data-icon="grid">OUR GALLERY</a>
+	</ul>
+</div>
+
+	<div data-role="content" role="main" class="ui-content">
+	     
+		<center> 
+		<div class="slideshow-container">
+		    <div class="mySlides fade">
+			   <img src="header.jpg">
+			</div>
+
+        <div class="mySlides fade">
+            <img src="header2.jpg" width="1080" height="401">
+        </div>
+		
+		<div class="mySlides fade">
+            <img src="header3.jpg" width="1080" height="401">
+        </div>
+		
+		<div class="mySlides fade">
+            <img src="header4.png" width="1080" height="401">
+        </div>
+
+        </div>
+		</center>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+		 
+	     <p><b>MORE INFORMATION :</b></p>
+		 
+		 <div data-role="collapsible">
+				<h1>About Us</h1>
+				<p>We provide holiday package & Tour operator specialized in Perhentian, Redang, Lang Tengah, Light House, Rawa & Susu Dara Island and many more.</p>
+				<p>We also offer cheap tour packages either domestic (within Malaysia) or international tours. Just tell us about the trip you’re dreaming of taking—they will make it a reality. Perhentian Setia Travel & Tours Sdn. Bhd. team consist of a group of travel expert which are strong emphasis on service quality, customer care, attentive listening and prompt response to enquiries within 24 hours.</p>
+				<p>We are a company with diverse talent & skills. Our leadership structure offers a dynamic atmosphere in which telented, creative & motivated people thrive. We don’t just acknowledge hard work & achievements, we reward it & groom it.</p>
+				<p>We have an experienced team and ambitious, vibrant, young professionals having ability to update with latest trends & requirements of our client.</p>
+				<p>Our team’s passion is to take challenges and to deliver to clients expectations.</p>
+				<p><b>Company History</b></p>
+				<p>Rewarded by the Ministry of Tourism as The Best Local Tour Operator ( Domestic ) 20th Malaysia Tourism Awards 2016/2017.</p>
+				</div>
+				 
+				<div data-role="collapsible">
+				<h1>Contact and Follow</h1>
+				<p>Perhentian Setia is a travel agency that established on 2011 and located in the heart of Kuala Besut, Terengganu as below address :-</p>
+				<p>No. S 10, Terminal Pelancongan, 22300 Kuala Besut, Terengganu, Malaysia..</p>
+				<p><b>Office</b> - 609-6903581</p>
+				<p><b>WhatsApp / SMS / Call</b> - 019-9223581</p>
+				<p><b>WhatsApp / SMS / Call</b> - 013-9122581</p>
+				<p><b>Facebook</b> : <a href="https://www.facebook.com/perhentiansetiatravel.sdn.bhd/?ref=page_internal">Perhentian Setia Travel & Tours Sdn. Bhd.</a></p>
+			    </div>
+
+                <div data-role="collapsible">
+				<h1>Operation Hours</h1>
+				<p>Monday   : 7.30 AM - 6 PM</p>
+				<p>Tuesday  : 7.30 AM - 6 PM</p>
+				<p>Wednesday: 7.30 AM - 6 PM</p>
+				<p>Thursday : 7.30 AM - 6 PM</p>
+				<p>Friday   : <b>Close</b></p>
+				<p>Saturday : 7.30 AM - 6 PM</p>
+				<p>Sunday   : 7.30 AM - 6 PM</p>
+			    </div>
+		 </div>	
+
+	<div data-role="footer" class="footer" data-theme="b">
+		<h2>&copy; Perhentian Setia Travel & Tours Sdn.Bhd. 2021</h2>
+	</div>
+</div>
+
+
+<!-- This is for page 2 -->
+<div data-role="page" id="page2">
+      <div data-role="header" class="header" data-theme="b">
+	    <h1>HOLIDAY PACKAGE</h1>
+      </div>
+	  
+	  <div data-role="navbar" id="alignment">
+	<ul>
+		<li><a href="#page1" data-icon="home">HOME</a>
+		<li><a href="#page2" data-icon="star">HOLIDAY PACKAGE</a>
+		<li><a href="#page3" data-icon="check">ACCOMMODATION</a>
+		<li><a href="#page4" data-icon="grid">OUR GALLERY</a>
+		
+	</ul>
+	</div>
+	  
+      <div data-role="content" role="main" class="ui-content">	
+	    <div data-role="header" data-theme="a" data-add-back-btn="true" data-back-btn-text="Back">
+	    <p style="text-align:center;color:black"><b>Available package :</b></p>
+		<p>We offer attractive services and packages such as :</p>
+		<ul>
+		<li>Snorkelling Package</li>
+		<li>Diving Package</li>
+		<li>Flight / Bus / Boat Ticketing</li>
+		<li>Tour Guide</li>
+		<li>Hotel Reservation</li>
+		<li>Diving Course</li>
+		<li>Travel Insurance</li>
+		<li>Holiday Planning</li>
+		</ul>
+		
+		<p>Contact us now to book your order and get ready to have a wonderful holiday!</p>
+
+	<center><tr>
+    <td><img src="promo1.jpg" width="300" height="300"></td>
+    <td><img src="promo2.jpg" width="300" height="300"></td>
+    <td><img src="promo3.jpg" width="300" height="300"></td>
+	</tr></center>
+	<center><tr>
+	<td><img src="promo4.jpg" width="300" height="300"></td>
+	<td><img src="promo5.jpg" width="300" height="300"></td>
+	<td><img src="promo6.jpg" width="300" height="300"></td>
+	</tr></center>
+      </div>
+	  </div>
+	   
+       <div data-role="footer" class="footer" data-theme="b">
+		<h2>&copy; Perhentian Setia Travel & Tours Sdn.Bhd. 2021</h2>
+	   </div>
+</div>
+
+
+<!-- This is for page 3 -->
+<div data-role="page" id="page3">
+       <div data-role="header" class="header" data-theme="b">
+	    <h1>ACCOMMODATION</h1>
+      </div>
+	  
+	  <div data-role="navbar" id="alignment">
+	<ul>
+		<li><a href="#page1" data-icon="home">HOME</a>
+		<li><a href="#page2" data-icon="star">HOLIDAY PACKAGE</a>
+		<li><a href="#page3" data-icon="check">ACCOMMODATION</a>
+		<li><a href="#page4" data-icon="grid">OUR GALLERY</a>
+		
+	</ul>
+	</div>
+	
+	<div data-role="content" role="main" class="ui-content">	
+	    <div data-role="header" data-theme="a" data-add-back-btn="true" data-back-btn-text="Back">
+		
+		<p style="text-align:center">Exterior</p>
+		<center>
+		<p><img src="rumah.jpg" width="600" height="400"></p>
+		<p><img src="rumah2.jpg" width="600" height="400"></p>
+		</center>
+		
+		<p style="text-align:center">Interior</p>
+		<center>
+		<p><img src="room1.jpg" width="600" height="400"></p>
+		<p><img src="room2.jpg" width="600" height="400"></p>
+		<p><img src="room3.jpg" width="600" height="400"></p>
+		<p><img src="room4.jpg" width="600" height="400"></p>
+		</center>
+		
+		<p style="text-align:center">Pool</p>
+		<center>
+		<p><img src="pool.jpg" width="600" height="400"></p>
+		</center>
+		
+		<p style="text-align:center">Cafe</p>
+		<center>
+		<p><img src="kafe.jpg" width="600" height="400"></p>
+		<p><img src="kafe2.jpg" width="600" height="400"></p>
+		<p><img src="kafe3.jpg" width="600" height="400"></p>
+		</center>
+		
+	    </div>
+	</div>
+		
+	<div data-role="footer" class="footer" data-theme="b">
+		<h2>&copy; Perhentian Setia Travel & Tours Sdn.Bhd. 2021</h2>
+	   </div>
+	  
+</div>
+
+<!-- This is for page 4 -->
+<div data-role="page" id="page4">
+      <div data-role="header" class="header" data-theme="b">
+	    <h1>OUR GALLERY</h1>
+      </div>
+	  
+	  <div data-role="navbar" id="alignment">
+	<ul>
+		<li><a href="#page1" data-icon="home" >HOME</a>
+		<li><a href="#page2" data-icon="star">HOLIDAY PACKAGE</a>
+		<li><a href="#page3" data-icon="check" >ACCOMMODATION</a>
+		<li><a href="#page4" data-icon="grid">OUR GALLERY</a>
+	</ul>
+	  </div>
+	
+	<div data-role="content" role="main" class="ui-content">
+	<div data-role="header" data-theme="a" data-add-back-btn="true" data-back-btn-text="Back">
+	<p style="text-align:center;color:black"><b>OUR GALLERY</b></p>
+	
+	  <center><tr>
+	  <img src="gallery12-square.jpg" width="300" height="300">
+	  <img src="gallery1-square.jpg" width="300" height="300">
+	  <img src="gallery4-square.jpg" width="300" height="300">
+	  </tr></center>
+	  <center><tr>
+	  <img src="gallery8-square.jpg" width="300" height="300">
+	  <img src="gallery3-square.jpg" width="300" height="300">
+	  <img src="gallery6-square.jpg" width="300" height="300">
+	  </tr></center>
+	  <center><tr>
+	  <img src="gallery11-square.jpg" width="300" height="300">
+	  <img src="gallery2-square.jpg" width="300" height="300">
+	  <img src="gallery10-square.jpg" width="300" height="300">
+	  </tr></center>
+	  <center><tr>
+	  <img src="gallery7-square.jpg" width="300" height="300">
+	  <img src="gallery5-square.jpg" width="300" height="300">
+	  <img src="gallery9-square.jpg" width="300" height="300">
+	  </tr></center>
+	  
+	  </div>
+	</div>
+	
+	<div data-role="footer" class="footer" data-theme="b">
+		<h2>&copy; Perhentian Setia Travel & Tours Sdn.Bhd. 2021</h2>
+	</div>
+      
+</div>
+
+</body>
+</html>
